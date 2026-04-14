@@ -22,3 +22,10 @@ com.juhmaran.library
 │    ├── impl
 └── SpringLibraryAppApplication
 ```
+
+## Acessos
+
+- http://localhost:8080/books
+- http://localhost:8080/authors
+- http://localhost:8080/publishers
+- http://localhost:8080/h2-console
