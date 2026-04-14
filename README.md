@@ -106,10 +106,16 @@ Separação clara de responsabilidades:
 
 Fluxo da aplicação:
 
-```
-Request → Controller → Service → Repository → Database 
-                                                ↓ 
-        Response ← View (Thymeleaf) ← Controller ←
+```mermaid
+flowchart LR
+    A[Request] --> B[Controller]
+    B --> C[Service]
+    C --> D[Repository]
+    D --> E[(Database)]
+
+    E --> F[Controller]
+    F --> G[View - Thymeleaf]
+    G --> H[Response]
 ```
 
 ## Thymeleaf
