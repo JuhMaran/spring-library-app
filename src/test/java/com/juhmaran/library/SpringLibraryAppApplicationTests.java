@@ -1,4 +1,4 @@
-package com.juhmaran.spring_library_app;
+package com.juhmaran.library;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

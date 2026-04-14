@@ -1,4 +1,4 @@
-package com.juhmaran.spring_library_app;
+package com.juhmaran.library;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
